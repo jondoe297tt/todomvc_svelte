@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply text-center min-w-[230px] min-h-[550px] h-screen bg-[#f5f5f5];
+}
+.todoApp{
+ @apply shadow-[0_2px_4px_0_rgba(0,0,0,0.2)]
+}
+.todoItem{
+  background-color: white;
+}
